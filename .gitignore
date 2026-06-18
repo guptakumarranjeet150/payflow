@@ -1,5 +1,3 @@
-.env
-.env.local
 node_modules/
 coverage/
 api-dev.err.log
@@ -21,3 +19,4 @@ data/payflow.json
 Thumbs.db
 *.swp
 *~
+config.bat
