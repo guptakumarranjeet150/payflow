@@ -4,8 +4,8 @@
   "description": "Wallet transfer API with a React frontend and contributor-ready repo tooling.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node init && node src/app.js",
+    "dev": "node init && nodemon src/app.js",
     "seed": "node src/seed.js",
     "test": "jest --runInBand"
   },
