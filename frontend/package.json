@@ -10,8 +10,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "node init && vite --host 0.0.0.0 --port 5173",
-    "build": "node init && vite build",
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
     "preview": "vite preview --port 5173"
   },
   "engines": {
